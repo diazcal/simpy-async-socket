@@ -9,4 +9,5 @@ So far I made it work to write sockets, but it is easisly extendable to work wit
 And yeah I know simpy.io is there, but last commit was some years ago. I wanted to see how far can I go without the need of to go through someonelses code.
 
 ## References
-[Non blocking socket with select()](https://medium.com/vaidikkapoor/understanding-non-blocking-i-o-with-python-part-1-ec31a2e2db9b)
+* [Non blocking socket with select()](https://medium.com/vaidikkapoor/understanding-non-blocking-i-o-with-python-part-1-ec31a2e2db9b)
+* [Real-time simulation (Simpy docs)](https://simpy.readthedocs.io/en/latest/api_reference/simpy.rt.html)
