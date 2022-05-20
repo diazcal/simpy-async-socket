@@ -1,6 +1,10 @@
 # simpy-async-socket
 PoC on non-blocking sockets to work with real time discrete event simulations in Simpy
 
+## Tech stack
+- simpy
+- socket
+
 ## Context
 For some rt simulations I need to be able to write to sockets without blocking the Simpy event loop. Therefore, I make use of select() to unblock the I/O.
 
